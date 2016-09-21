@@ -1,0 +1,113 @@
+.yellow {
+    background-color: yellow;
+    color: black;
+    font-family: 'Arimo', sans-serif;
+}
+
+body {
+    color: white;
+    background-image: url("img/background1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+mark {
+    color: yellow;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 900;
+}
+
+h2 {
+    color: #FFF;
+    font-weight: bold;
+    border-top: solid 5px yellow;
+    font-family: 'Arimo', sans-serif;
+}
+
+#logo {
+    padding-top: 90px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+article ul li {
+    list-style-image: url("img/bullet.gif");
+}
+
+.grey li {
+    border-top: thin solid #555555;
+    background-color: #0F0F0F;
+    color: #777777;
+    line-height: 2.5em;
+}
+
+.stars li {
+    list-style-image: url("img/star1.jpg");
+    font-family: 'Arimo', sans-serif;
+}
+
+.sideItem1 {
+    line-height: 2.5em;
+}
+
+.sideItem2 {
+    margin-top: 40px;
+}
+
+.sideItem2 .borderYellow {
+    border: 5px solid yellow;
+}
+
+.borderYellow {
+    padding: 10px;
+}
+
+.pinkText {
+    background-color: yellow;
+    font-family: 'Arimo', sans-serif;
+    color: #EC155B;
+}
+
+#asidePosition {
+    margin-top: 250px;
+}
+
+.padding {
+    padding-left: 50px;
+}
+
+.floatLeft {
+    float: left;
+    border: 3px solid yellow;
+    padding: 2px;
+    margin-right: 4px;
+}
+
+.floatRight {
+    float: right;
+    border: 3px solid yellow;
+    padding: 2px;
+    margin-left: 4px;
+}
+
+.special {
+    background-color: #0F0F0F;
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    width: 80%;
+    text-align: justify;
+    padding: 10px 5px 10px 5px;
+}
+
+footer {
+    word-spacing: 5px;
+    margin-top: 250px;
+    margin-left: 22%;
+}
